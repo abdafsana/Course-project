@@ -1,0 +1,21 @@
+@media(min-width:320px) and (max-width:991px) {
+    .courseprogram .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .courseprogram h1 {
+        margin-bottom: 50px;
+        margin-left: 0px;
+        font-size: 25px;
+    }
+
+    .courseprogram h3 {
+        margin-top: 15px;
+        margin-bottom: 30px;
+        margin-left: 15px;
+    }
+
+    .courseprogram p {
+        margin-bottom: 20px;
+    }
+}
