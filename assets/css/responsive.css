@@ -1,0 +1,103 @@
+/* Header Section Responsive */
+@media screen and (min-width:992px) and (max-width:1279px){
+    .header {
+        width: 80%;
+    }
+    .head-section {
+        width: 80%;
+    }
+    .card-section{
+        height: 250px;
+    }
+    .card-container {
+        width: 280px;
+        height: 115px;
+    }
+    .card-text{
+        width: 85%;
+        font-size: 14px;
+    }
+    .card-author{
+        font-size: 12px;
+        bottom: 5px;
+    }
+    .logo {
+        width: 64px;
+        height: 38px;
+    }
+    .header-box>img {
+        width: 12px;
+        height: 12px;
+    }
+    .header-paragraf {
+        font-size: 12px;
+    }
+    .head-title {
+        font-size: 46px;
+    }
+    .head-paragraf {
+        font-size: 12px;
+    }
+    .section1-img{
+        width: 176px;
+        height: 206px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:991px){
+    .header {
+        width: 95%;
+        height: 120px;
+    }
+    .head-section {
+        width: 95%;
+        height: 335px;
+        padding-top: 0;
+    }
+    .card-section{
+        width: 95%;
+        height: 150px;
+        justify-content: left;
+    }
+    .card-container {
+        width: 225px;
+        height: 93px;
+    }
+    .card-text{
+        width: 85%;
+        font-size: 11px;
+    }
+    .card-author{
+        font-size: 10px;
+        bottom: 10px;
+    }
+    .logo {
+        width: 52px;
+        height: 30px;
+    }
+    .header-box>img {
+        width: 10px;
+        height: 10px;
+    }
+    .header-paragraf {
+        font-size: 10px;
+    }
+    .head-title {
+        font-size: 37px;
+    }
+    .head-paragraf {
+        font-size: 10px;
+        width: 264px;
+    }
+    .section1-img{
+        width: 141px;
+        height: 175px;
+        position:absolute;
+        right: 0;
+    }
+    .head-container{
+        width: 100%;
+        display: block;
+        position: relative;
+    }
+}
