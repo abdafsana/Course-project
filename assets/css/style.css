@@ -6,6 +6,52 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Card Section */
+.courseprogram {
+    width: 100%;
+    padding: 70px;
+}
+
+.courseprogram h1 {
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Roboto Slab", serif;
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+
+.courseprogram .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.courseprogram .card {
+    border-radius: 43px;
+    padding-bottom: 10px;
+    box-shadow: 0px 4px 8px black;
+}
+
+.courseprogram img {
+    width: 100%;
+}
+
+.courseprogram h3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+}
+
+.courseprogram p {
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
 /* Header Section    */
 .header {
     width: 85%;
