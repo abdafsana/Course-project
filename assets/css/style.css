@@ -6,6 +6,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /* Card Section */
 .courseprogram {
     width: 100%;
@@ -51,6 +52,7 @@
     margin-left: 15px;
     margin-bottom: 10px;
 }
+
 /* Header Section    */
 .header {
     width: 85%;
@@ -100,7 +102,8 @@
     font-size: 80px;
     font-family: "Roboto Slab", serif;
 }
-.section1-img{
+
+.section1-img {
     width: 304px;
     height: 356px;
 }
@@ -148,10 +151,99 @@
     font-family: "Roboto Slab", serif;
     font-size: 25px;
 }
-.card-author{
+
+.card-author {
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     position: absolute;
     right: 15px;
     bottom: 10px;
+}
+
+/* formatclass */
+
+.formatclass {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+    padding: 80px;
+}
+
+.formatclass header {
+    background-color: #fff;
+    color: #000;
+    text-align: left;
+    padding: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.formatclass .top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.formatclass .top-section h1,
+.formatclass .top-section .learning h2 {
+    flex: 1;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.formatclass .features {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+.formatclass .feature {
+    width: 30%;
+    min-width: 280px;
+    background: #fff;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: none;
+    text-align: left;
+}
+
+.formatclass .feature h2 {
+    color: #003366;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.formatclass .learning {
+    background: #fff;
+    padding: 20px;
+    margin: 20px;
+    max-width: 1200px;
+}
+
+.formatclass .learning h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.formatclass .learning ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.formatclass .learning li {
+    padding: 10px 0;
+    font-size: 16px;
+    border-bottom: none;
 }
