@@ -25,6 +25,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
+    margin: 20px;
 }
 
 .courseprogram .card {
@@ -170,6 +171,9 @@
     color: #000;
     padding: 80px;
 }
+.formatclass h1{
+    font-family: "Roboto Slab", serif;
+}
 
 .formatclass header {
     background-color: #fff;
@@ -234,6 +238,7 @@
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
+    font-family: "Roboto Slab", serif;
 }
 
 .formatclass .learning ul {
