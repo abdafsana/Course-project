@@ -13,7 +13,7 @@
     padding: 70px;
 }
 
-.courseprogram-title{
+.courseprogram-title {
     font-size: 55px;
     font-weight: bold;
     font-family: "Roboto Slab", serif;
@@ -506,13 +506,15 @@ footer {
     width: 190px;
     height: 169px;
 }
-.lst-authorName{
+
+.lst-authorName {
     font-size: 30px;
     font-weight: bold;
-    font-family: "Roboto Slab", serif; 
+    font-family: "Roboto Slab", serif;
     margin-bottom: 15px;
 }
-.lst-authorSocial{
+
+.lst-authorSocial {
     width: 30px;
     height: 30px;
 }
