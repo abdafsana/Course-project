@@ -136,7 +136,6 @@
     .details {
         width: 75%;
     }
-}
     .header {
         width: 95%;
         height: 120px;
@@ -330,3 +329,4 @@
         align-items: center;
     }
   }
+}
