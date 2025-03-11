@@ -279,3 +279,120 @@
     right: 15px;
     bottom: 10px;
 }
+
+/* Last Section */
+
+.last-section {
+    font-family: "Roboto", sans-serif;
+    background-color: #a6c8c8;
+    padding: 50px;
+}
+.last-container {
+    max-width: 900px;
+    margin-top: 100px;
+    margin-left: 50px;
+    height: 650px;
+}
+.nachalo {
+    font-family: "Roboto Slab", serif;
+    font-size: 55px;
+    font-weight: bold;
+}
+.price {
+    font-size: 80px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.info {
+    display: flex;
+    column-gap: 5em;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.dlya {
+    font-size: 25px;
+}
+
+.pro {
+    font-size: 25px;
+}
+
+.stoimost {
+    margin-bottom: 80px;
+    font-size: 25px;
+}
+
+.kurs {
+    font-size: 18px;
+}
+
+.esli {
+    font-size: 18px;
+}
+
+.dlyakurs {
+    max-width: 295px;
+}
+
+.proesli {
+    max-width: 295px;
+}
+
+footer {
+    background-color: black;
+    height: 450px;
+}
+
+.footer-section {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 65px;
+    color: white;
+
+}
+.connection {
+    width: 100%;
+    display: flex;
+}
+.synchronize{
+    width: 50%;
+}
+.logos {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between ;
+    width: 30%;
+}
+
+.contacts {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 55%;
+    padding-top: 20px;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+.contacts>img{
+    width: 27px;
+    height: 27px;
+}
+.contacts-box{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    width: 50%;
+}
+.number{
+    width: 75%;
+}
+
+.last-picture {
+    margin-top: 180px;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
