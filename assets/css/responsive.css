@@ -1,10 +1,8 @@
-@media screen and (min-width:992px) and (max-width:1279px) {
-
-    /* Header Section Responsive */
+@media screen and (min-width:992px) and (max-width:1279px){
+/* Header Section Responsive */
     .header {
         width: 80%;
     }
-
     .logo {
         width: 64px;
         height: 38px;
@@ -23,7 +21,6 @@
     .head-section {
         width: 80%;
     }
-
     .head-title {
         font-size: 46px;
     }
@@ -33,8 +30,8 @@
     }
 
     .section1-img {
-        width: 50vw;
-        height: 40dvh;
+        width: 176px;
+        height: 206px;
     }
 
     .card-section {
@@ -55,7 +52,6 @@
         font-size: 12px;
         bottom: 5px;
     }
-
     .logo {
         width: 64px;
         height: 38px;
@@ -78,6 +74,10 @@
         font-size: 12px;
     }
 
+    .section1-img {
+        width: 176px;
+        height: 206px;
+    }
     /* About Section Responsive */
     .about-title {
         font-size: 32px;
@@ -104,6 +104,7 @@
     .alt-section {
         width: 80%;
         height: 200px;
+        /* background-color: red; */
         justify-content: flex-start;
     }
 
@@ -126,9 +127,7 @@
         margin-bottom: 10px;
     }
 }
-
 @media screen and (min-width:320px) and (max-width:991px) {
-
     /* Header Section   */
     .alt-container {
         width: 95%;
@@ -137,12 +136,11 @@
     .details {
         width: 75%;
     }
-
+}
     .header {
         width: 95%;
         height: 120px;
     }
-
     .logo {
         width: 52px;
         height: 30px;
@@ -166,7 +164,7 @@
 
     .card-section {
         width: 95%;
-        height: 40dvh;
+        height: 150px;
         justify-content: left;
     }
 
@@ -184,7 +182,6 @@
         font-size: 10px;
         bottom: 10px;
     }
-
     .logo {
         width: 52px;
         height: 30px;
@@ -198,7 +195,6 @@
     .header-paragraf {
         font-size: 10px;
     }
-
     .head-title {
         font-size: 37px;
     }
@@ -209,8 +205,8 @@
     }
 
     .section1-img {
-        width: 60vw;
-        height: 40dvh;
+        width: 141px;
+        height: 175px;
         position: absolute;
         right: 0;
     }
@@ -220,7 +216,8 @@
         display: block;
         position: relative;
     }
-
+    /*  Card section  */
+    .courseprogram .cards {
     /* About Section Responsive */
     .about-title {
         font-size: 26px;
@@ -248,15 +245,16 @@
     }
 
     .common {
+        /* height: 250px; */
         display: block;
     }
 
     .alt-section {
         width: 95%;
         height: 200px;
+        /* background-color: red; */
         justify-content: flex-start;
     }
-
     .altsection-img {
         width: 0px;
     }
@@ -281,6 +279,7 @@
 
     .alt-container {
         width: 100%;
+        background-color: aqua;
     }
 
     .details {
@@ -291,12 +290,8 @@
     }
 
     /*  Card section  Responsive*/
-    .courseprogram {
-        padding: 0;
-        margin-top: 30px;
-    }
 
-    .courseprogram .cards {
+   .courseprogram .cards {
         grid-template-columns: 1fr;
     }
 
@@ -306,8 +301,7 @@
         font-size: 25px;
     }
 
-    .courseprogram-title {
-        font-size: 30px;
+    .courseprogram h3 {
         margin-top: 15px;
         margin-bottom: 30px;
         margin-left: 15px;
@@ -316,97 +310,23 @@
     .courseprogram p {
         margin-bottom: 20px;
     }
-
     /* formatclass */
     .formatclass {
-        width: 95%;
-        height: auto;
-        padding: 40px 0px;
+        padding: 40px;
     }
 
-    .formatclass h4 {
-        font-size: 30px;
-        margin-bottom: 20px;
-    }
-
-    .features {
+    .formatclass .features {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .feature {
+    .formatclass .feature {
         width: 100%;
         padding-left: 0;
     }
 
-    .feature h2 {
-        font-size: 14px;
-    }
-
-    .feature p {
-        font-size: 12px
-    }
-
-    /* Learning Section  */
-    .learning {
-        width: 95%;
-        height: auto;
-    }
-
-    .learning h2 {
-        font-size: 30px
-    }
-
-    .learning ul {
-        width: 95%;
-        margin: auto;
-    }
-
-    .learning ul li {
-        font-size: 12px;
-        width: 90%;
-
-    }
-
-    /* Last CArd Section */
-    .last-card {
-        height: 500px;
-    }
-
-    .lst-card {
-        width: 90%;
-        height: 60%;
-    }
-
-    .lst-cardContainer {
-        width: 95%;
+    .formatclass .top-section {
+        flex-direction: column;
         align-items: center;
     }
-
-    .lst-cardContainer {
-        width: 95%;
-        height: 90%;
-    }
-
-    .lst-title {
-        font-size: 30px;
-    }
-
-    .lst-paeagraf {
-        font-size: 12px;
-    }
-
-    .lst-img {
-        width: 80px;
-        height: 84px;
-    }
-
-    .lst-authorName {
-        font-size: 14px;
-    }
-
-    .lst-authorSocial {
-        width: 16px;
-        height: 16px;
-    }
-}
+  }
