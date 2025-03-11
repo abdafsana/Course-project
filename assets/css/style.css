@@ -13,7 +13,7 @@
     padding: 70px;
 }
 
-.courseprogram h1 {
+.courseprogram-title{
     font-size: 55px;
     font-weight: bold;
     font-family: "Roboto Slab", serif;
@@ -64,19 +64,23 @@
     justify-content: space-around;
     flex-direction: column;
 }
+
 .logo {
     width: 112px;
     height: 68px;
 }
+
 .header-container {
     display: flex;
     align-items: center;
     gap: 30px;
 }
+
 .header-box {
     display: flex;
     gap: 5px;
 }
+
 .header-box>img {
     width: 22px;
     height: 22px;
@@ -124,13 +128,12 @@
     width: 85%;
     margin: auto;
     display: flex;
-    /* background-color: rebeccapurple; */
     flex-direction: column;
     gap: 50px;
     font-family: "Roboto", sans-serif;
 }
 
-.about-title{
+.about-title {
     font-size: 55px;
     font-family: "Roboto Slab", serif;
 }
@@ -155,15 +158,15 @@
     align-items: center;
     justify-content: center;
 }
+
 .text {
     font-size: 24px;
 }
+
 /* Alt section  */
 .alt-section {
     width: 85%;
-    height: 300px;
-    /* background-color: yellow; */
-   
+    height: 350px;
     font-family: "Roboto", sans-serif;
     margin: auto;
 }
@@ -192,27 +195,16 @@
     width: 150px;
     font-size: 18px;
 }
-.alt-container{
+
+.alt-container {
     width: 85%;
     height: 100%;
-    /* background-color: yellow; */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-/* Card Section */
-.courseprogram {
-    width: 100%;
-    padding: 70px;
-}
 
-.courseprogram h1 {
-    font-size: 80px;
-    font-weight: bold;
-    font-family: "Roboto Slab", serif;
-    margin-left: 40px;
-    margin-bottom: 100px;
-}
+/* Card Section */
 
 .courseprogram .cards {
     display: grid;
@@ -224,10 +216,6 @@
     border-radius: 43px;
     padding-bottom: 10px;
     box-shadow: 0px 4px 8px black;
-}
-
-.courseprogram img {
-    width: 100%;
 }
 
 .courseprogram h3 {
@@ -245,6 +233,7 @@
     margin-left: 15px;
     margin-bottom: 10px;
 }
+
 /* Small card section */
 .card-section {
     width: 85%;
@@ -287,91 +276,127 @@
 /* formatclass */
 
 .formatclass {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #fff;
-    color: #000;
-    padding: 80px;
-}
-.formatclass h1{
-    font-family: "Roboto Slab", serif;
-}
-
-.formatclass header {
-    background-color: #fff;
-    color: #000;
-    text-align: left;
-    padding: 20px;
-    font-size: 32px;
-    font-weight: bold;
-    margin-left: 20px;
-    display: flex;
-    align-items: center;
-}
-
-.formatclass .top-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
+    width: 85%;
     margin: auto;
-    padding: 20px;
-}
-
-.formatclass .top-section h1,
-.formatclass .top-section .learning h2 {
-    flex: 1;
-    text-align: center;
-    white-space: nowrap;
-}
-
-.formatclass .features {
+    height: 300px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    padding: 20px;
-    max-width: 1200px;
 }
 
-.formatclass .feature {
-    width: 30%;
-    min-width: 280px;
-    background: #fff;
-    padding: 15px;
-    margin: 10px;
-    box-shadow: none;
-    text-align: left;
+.formatclass h4 {
+    font-family: "Roboto Slab", serif;
+    font-size: 55px;
+    margin-top: 20px;
 }
 
-.formatclass .feature h2 {
-    color: #003366;
+.features {
+    display: flex;
+    gap: 70px;
+}
+
+.feature {
+    font-family: "Roboto", sans-serif;
+}
+
+.feature p {
+    width: 70%;
     font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 5px;
+    margin-top: 10px;
 }
 
-.formatclass .learning {
-    background: #fff;
-    padding: 20px;
-    margin: 20px;
-    max-width: 1200px;
+.feature h2 {
+    color: #003366;
+    font-size: 25px;
 }
 
-.formatclass .learning h2 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
+.learning {
+    width: 85%;
+    height: 800px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.learning h2 {
+    font-size: 55px;
     font-family: "Roboto Slab", serif;
 }
 
-.formatclass .learning ul {
+.learning ul {
+    width: 80%;
     list-style-type: disc;
-    padding-left: 20px;
-    text-align: left;
 }
 
-.formatclass .learning li {
-    padding: 10px 0;
-    font-size: 16px;
-    border-bottom: none;
+.learning li {
+    width: 60%;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    margin: 6px 0px;
+}
+
+/* Last Section CArd */
+.last-card {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EFEFEF;
+}
+
+.lst-cardContainer {
+    width: 85%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.lst-title {
+    font-size: 55px;
+    font-family: "Roboto Slab", serif;
+}
+
+.lst-card {
+    width: 57%;
+    height: 67%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px #b0aeae;
+    gap: 15px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.lst-paeagraf {
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.last-footer {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.lst-img {
+    width: 190px;
+    height: 169px;
+}
+.lst-authorName{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Roboto Slab", serif; 
+    margin-bottom: 15px;
+}
+.lst-authorSocial{
+    width: 30px;
+    height: 30px;
 }
